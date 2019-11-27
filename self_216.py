@@ -31,14 +31,14 @@ torch.backends.cudnn.benchmark = True
 
 # parameters
 user = 'dango'
-train_text_file = '/home/'+user+'/CRG/data/ImageClef-2019-VQA-Med-Training/All_QA_Pairs_train.txt'
-valid_text_file = '/home/'+user+'/CRG/data/ImageClef-2019-VQA-Med-Validation/All_QA_Pairs_val.txt'
-test_text_file = '/home/'+user+'/CRG/data/VQAMed2019Test/VQAMed2019_Test_Questions_w_Ref_Answers.txt'
-train_image_file = '/home/'+user+'/CRG/data/ImageClef-2019-VQA-Med-Training/Train_images/'
-valid_image_file = '/home/'+user+'/CRG/data/ImageClef-2019-VQA-Med-Validation/Val_images/'
-test_image_file = '/home/'+user+'/CRG/data/VQAMed2019Test/VQAMed2019_Test_Images/'
-vocab_file = '/home/'+user+'/CRG/code/bert_vocab/vocab.txt'
-save_dir = '/home/'+user+'/CRG/self/'
+train_text_file = './ImageClef-2019-VQA-Med-Training/All_QA_Pairs_train.txt'
+valid_text_file = './ImageClef-2019-VQA-Med-Validation/All_QA_Pairs_val.txt'
+test_text_file = './VQAMed2019Test/VQAMed2019_Test_Questions_w_Ref_Answers.txt'
+train_image_file = './ImageClef-2019-VQA-Med-Training/Train_images/'
+valid_image_file = './ImageClef-2019-VQA-Med-Validation/Val_images/'
+test_image_file = './VQAMed2019Test/VQAMed2019_Test_Images/'
+vocab_file = './vocab.txt'
+save_dir = './'
 tokenizer = tokenization.FullTokenizer(vocab_file=vocab_file, do_lower_case=True)
 tokenize = lambda x: tokenizer.tokenize(tokenizer.convert_to_unicode(x))
 token_id = tokenizer.convert_tokens_to_ids
@@ -49,7 +49,7 @@ heads = 12
 epochs = 999999
 lr = 0.0001
 clip = True
-share = 'none'
+share = 'all'
 norm = 'pre'
 dim = 312
 drop = 0.0
@@ -250,156 +250,13 @@ class Transformer(nn.Module):
             h = self.blocks(h, mask, i)
         return h
 
-class mod_model1(nn.Module):
+class mod_model(nn.Module):
     def __init__(self):
         super().__init__()
         self.transformer = Transformer()
         self.fc1 = nn.Linear(dim, dim)
         self.activ1 = nn.Tanh()
         self.classifier = nn.Linear(dim, 43)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class mod_model2(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 43)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class mod_model3(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 43)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class mod_yn_model1(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 2)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class mod_yn_model2(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 2)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class mod_yn_model3(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 2)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class pla_model1(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 16)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class pla_model2(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 16)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class pla_model3(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 16)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class org_model1(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 10)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class org_model2(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 10)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class org_model3(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 10)
     def forward(self, name, input_ids, segment_ids, input_mask):
         h = self.transformer(name, input_ids, segment_ids, input_mask)
         pooled_h = self.activ1(self.fc1(h[:, 0]))
@@ -425,45 +282,6 @@ class abn_model(nn.Module):
         h_masked = self.norm(gelu(self.fc2(h_masked)))
         logits_lm = self.decoder_2(self.decoder(h_masked)) + self.decoder_bias
         return logits_lm
-
-class abn_yn_model1(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 2)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class abn_yn_model2(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 2)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
-
-class abn_yn_model3(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.transformer = Transformer()
-        self.fc1 = nn.Linear(dim, dim)
-        self.activ1 = nn.Tanh()
-        self.classifier = nn.Linear(dim, 2)
-    def forward(self, name, input_ids, segment_ids, input_mask):
-        h = self.transformer(name, input_ids, segment_ids, input_mask)
-        pooled_h = self.activ1(self.fc1(h[:, 0]))
-        logits_clsf = self.classifier(pooled_h)
-        return logits_clsf
 
 # data
 def ques_standard(text):
