@@ -1,0 +1,500 @@
+1	synpic54082	cta - ct angiography
+2	synpic48556	no
+3	synpic50696	iv
+4	synpic37194	us-d - doppler ultrasound
+5	synpic31308	an - angiogram
+6	synpic24739	t2
+7	synpic32365	yes
+8	synpic47936	gi and iv
+9	synpic29792	yes
+10	synpic43561	yes
+11	synpic40732	mr - flair
+12	synpic33904	no
+13	synpic39583	yes
+14	synpic39568	xr - plain film
+15	synpic27024	yes
+16	synpic25155	flair
+17	synpic52493	xr - plain film
+18	synpic53941	ct with iv contrast
+19	synpic58343	mr - t1w w/gadolinium
+20	synpic48150	yes
+21	synpic26892	no
+22	synpic48805	yes
+23	synpic41996	yes
+24	synpic52901	t2
+25	synpic26702	no
+26	synpic36075	no
+27	synpic15874	no
+28	synpic28538	xr - plain film
+29	synpic45924	mr - flair
+30	synpic24458	ct with gi and iv contrast
+31	synpic34139	xr - plain film
+32	synpic58746	contrast
+33	synpic36276	yes
+34	synpic46949	us - ultrasound
+35	synpic60018	t2
+36	synpic14955	ct w/contrast (iv)
+37	synpic38267	no
+38	synpic18809	ct w/contrast (iv)
+39	synpic55706	no
+40	synpic51206	no
+41	synpic46829	yes
+42	synpic24706	no
+43	synpic22377	an - angiogram
+44	synpic43979	us - ultrasound
+45	synpic32831	no
+46	synpic33285	no
+47	synpic55100	no
+48	synpic48384	cta - ct angiography
+49	synpic59289	iv
+50	synpic54975	yes
+51	synpic51170	yes
+52	synpic40069	noncontrast
+53	synpic51160	mr - flair
+54	synpic18560	contrast
+55	synpic51606	an - angiogram
+56	synpic19859	xr - plain film
+57	synpic27747	yes
+58	synpic13384	mammograph
+59	synpic59702	no
+60	synpic60197	yes
+61	synpic56425	an - angiogram
+62	synpic33295	ugi - upper gi
+63	synpic43772	yes
+64	synpic56394	mr - t2 weighted
+65	synpic33518	noncontrast (mri)
+66	synpic28138	yes
+67	synpic31469	contrast
+68	synpic35155	ct with gi and iv contrast
+69	synpic40333	us - ultrasound
+70	synpic41011	no
+71	synpic51202	ct noncontrast
+72	synpic44800	contrast
+73	synpic59851	xr - plain film
+74	synpic35747	mr - t2 weighted
+75	synpic54150	mr - t1w w/gadolinium
+76	synpic25024	yes
+77	synpic34128	sbft - small bowel
+78	synpic45935	contrast
+79	synpic19086	ct noncontrast
+80	synpic35578	yes
+81	synpic51767	ct with gi and iv contrast
+82	synpic27197	no
+83	synpic44430	contrast
+84	synpic46964	xr - plain film
+85	synpic41979	ugi - upper gi
+86	synpic32773	us - ultrasound
+87	synpic31285	no
+88	synpic40440	no
+89	synpic22366	us - ultrasound
+90	synpic100408	xr - plain film
+91	synpic50733	no
+92	synpic49262	no
+93	synpic27752	xr - plain film
+94	synpic53951	yes
+95	synpic24501	xr - plain film
+96	synpic52497	no
+97	synpic47924	ugi - upper gi
+98	synpic22825	ct (with gi and iv contrast)
+99	synpic18213	xr - plain film
+100	synpic34909	yes
+101	synpic56154	no
+102	synpic39585	t2
+103	synpic16994	flair
+104	synpic51407	yes
+105	synpic37609	mr - adc map (app diff coeff)
+106	synpic27432	ct w/contrast (iv)
+107	synpic28715	yes
+108	synpic53600	no
+109	synpic40697	no
+110	synpic41589	ct with iv contrast
+111	synpic24310	no
+112	synpic51770	no
+113	synpic47890	ct noncontrast
+114	synpic40127	t1
+115	synpic37634	no
+116	synpic26922	us - ultrasound
+117	synpic37740	t1
+118	synpic28890	noncontrast
+119	synpic49513	mr - t1w w/gadolinium
+120	synpic52133	an - angiogram
+121	synpic24258	yes
+122	synpic21334	yes
+123	synpic45842	yes
+124	synpic37595	xr - plain film
+125	synpic55335	yes
+126	synpic56130	3d reconstruction
+127	synpic21435	axial
+128	synpic39252	axial
+129	synpic23785	axial
+130	synpic58323	axial
+131	synpic51449	axial
+132	synpic39087	axial
+133	synpic16716	ap
+134	synpic54525	axial
+135	synpic38372	axial
+136	synpic39865	axial
+137	synpic58519	axial
+138	synpic26986	pa
+139	synpic58294	sagittal
+140	synpic24161	longitudinal
+141	synpic26010	lateral
+142	synpic36217	axial
+143	synpic56736	sagittal
+144	synpic44454	axial
+145	synpic54653	axial
+146	synpic56044	sagittal
+147	synpic21569	ap
+148	synpic59376	axial
+149	synpic55564	axial
+150	synpic34367	oblique
+151	synpic48079	axial
+152	synpic35657	pa
+153	synpic27290	sagittal
+154	synpic29040	pa
+155	synpic27737	lateral
+156	synpic39290	axial
+157	synpic27906	axial
+158	synpic58863	coronal
+159	synpic46888	axial
+160	synpic20264	axial
+161	synpic38359	coronal
+162	synpic36374	axial
+163	synpic41842	axial
+164	synpic21783	3d reconstruction
+165	synpic57403	axial
+166	synpic17769	axial
+167	synpic59360	axial
+168	synpic15817	pa
+169	synpic51932	axial
+170	synpic32067	axial
+171	synpic16112	transverse
+172	synpic39867	axial
+173	synpic35132	axial
+174	synpic28605	axial
+175	synpic56442	sagittal
+176	synpic52142	axial
+177	synpic51311	axial
+178	synpic41102	axial
+179	synpic37080	lateral
+180	synpic54719	axial
+181	synpic43507	oblique
+182	synpic58325	axial
+183	synpic55832	axial
+184	synpic43936	axial
+185	synpic61201	sagittal
+186	synpic18885	coronal
+187	synpic44136	transverse
+188	synpic16894	sagittal
+189	synpic51261	axial
+190	synpic34406	sagittal
+191	synpic41927	coronal
+192	synpic50433	coronal
+193	synpic26566	axial
+194	synpic53852	axial
+195	synpic41503	axial
+196	synpic45003	sagittal
+197	synpic25536	axial
+198	synpic41932	axial
+199	synpic20466	sagittal
+200	synpic16881	ap
+201	synpic52027	3d reconstruction
+202	synpic32894	ap
+203	synpic35645	frontal
+204	synpic27282	ap
+205	synpic37250	axial
+206	synpic27725	axial
+207	synpic17194	sagittal
+208	synpic21397	coronal
+209	synpic52423	lateral
+210	synpic42156	axial
+211	synpic51894	axial
+212	synpic38836	axial
+213	synpic54736	axial
+214	synpic53065	sagittal
+215	synpic43510	transverse
+216	synpic53717	axial
+217	synpic60336	axial
+218	synpic8584	axial
+219	synpic43048	axial
+220	synpic27294	sagittal
+221	synpic28170	lateral
+222	synpic100253	ap
+223	synpic37124	axial
+224	synpic54130	axial
+225	synpic27647	lateral
+226	synpic41919	axial
+227	synpic57835	axial
+228	synpic23193	3d reconstruction
+229	synpic27256	frontal
+230	synpic32897	pa
+231	synpic53299	lateral
+232	synpic32698	oblique
+233	synpic49799	axial
+234	synpic60451	pa
+235	synpic51667	sagittal
+236	synpic53064	coronal
+237	synpic59213	coronal
+238	synpic53981	axial
+239	synpic53995	axial
+240	synpic59260	axial
+241	synpic56806	coronal
+242	synpic55670	axial
+243	synpic23916	axial
+244	synpic47328	transverse
+245	synpic50132	axial
+246	synpic28076	coronal
+247	synpic44351	sagittal
+248	synpic24314	lateral
+249	synpic31739	mammo - cc
+250	synpic25598	mammo - mlo
+251	synpic16333	skull and contents
+252	synpic53848	skull and contents
+253	synpic31015	face, sinuses, and neck
+254	synpic56918	skull and contents
+255	synpic26227	musculoskeletal
+256	synpic31996	spine and contents
+257	synpic40809	skull and contents
+258	synpic46288	skull and contents
+259	synpic58908	skull and contents
+260	synpic37465	vascular and lymphatic
+261	synpic57420	spine and contents
+262	synpic28035	skull and contents
+263	synpic18684	genitourinary
+264	synpic40389	skull and contents
+265	synpic26781	musculoskeletal
+266	synpic32938	lung, mediastinum, pleura
+267	synpic40410	skull and contents
+268	synpic35919	skull and contents
+269	synpic48716	skull and contents
+270	synpic34030	spine and contents
+271	synpic33039	heart and great vessels
+272	synpic19161	breast
+273	synpic40028	lung, mediastinum, pleura
+274	synpic43535	lung, mediastinum, pleura
+275	synpic53726	heart and great vessels
+276	synpic51866	face, sinuses, and neck
+277	synpic20053	gastrointestinal
+278	synpic4164	musculoskeletal
+279	synpic20286	gastrointestinal
+280	synpic16734	lung, mediastinum, pleura
+281	synpic36341	skull and contents
+282	synpic55037	skull and contents
+283	synpic33417	genitourinary
+284	synpic22526	lung, mediastinum, pleura
+285	synpic21749	musculoskeletal
+286	synpic59180	spine and contents
+287	synpic34807	skull and contents
+288	synpic50359	heart and great vessels
+289	synpic26581	musculoskeletal
+290	synpic56072	skull and contents
+291	synpic49807	skull and contents
+292	synpic27890	face, sinuses, and neck
+293	synpic37328	skull and contents
+294	synpic50370	skull and contents
+295	synpic32052	skull and contents
+296	synpic42589	musculoskeletal
+297	synpic56271	skull and contents
+298	synpic46738	lung, mediastinum, pleura
+299	synpic50006	gastrointestinal
+300	synpic50984	gastrointestinal
+301	synpic26351	skull and contents
+302	synpic19837	gastrointestinal
+303	synpic56107	skull and contents
+304	synpic19614	lung, mediastinum, pleura
+305	synpic56103	face, sinuses, and neck
+306	synpic9653	skull and contents
+307	synpic49779	spine and contents
+308	synpic39275	skull and contents
+309	synpic30245	heart and great vessels
+310	synpic45180	skull and contents
+311	synpic26194	genitourinary
+312	synpic53251	vascular and lymphatic
+313	synpic16094	lung, mediastinum, pleura
+314	synpic36422	skull and contents
+315	synpic35881	skull and contents
+316	synpic25310	skull and contents
+317	synpic28973	breast
+318	synpic50638	lung, mediastinum, pleura
+319	synpic49369	lung, mediastinum, pleura
+320	synpic36218	gastrointestinal
+321	synpic47608	skull and contents
+322	synpic46516	skull and contents
+323	synpic55230	skull and contents
+324	synpic39301	skull and contents
+325	synpic12184	genitourinary
+326	synpic35275	gastrointestinal
+327	synpic39472	skull and contents
+328	synpic19991	musculoskeletal
+329	synpic38220	skull and contents
+330	synpic41907	skull and contents
+331	synpic38591	skull and contents
+332	synpic25311	skull and contents
+333	synpic47557	lung, mediastinum, pleura
+334	synpic50003	lung, mediastinum, pleura
+335	synpic18251	skull and contents
+336	synpic16242	face, sinuses, and neck
+337	synpic47964	skull and contents
+338	synpic25139	gastrointestinal
+339	synpic56302	face, sinuses, and neck
+340	synpic52164	heart and great vessels
+341	synpic45430	face, sinuses, and neck
+342	synpic38424	skull and contents
+343	synpic18938	musculoskeletal
+344	synpic54475	skull and contents
+345	synpic46071	skull and contents
+346	synpic16108	spine and contents
+347	synpic26975	genitourinary
+348	synpic41736	musculoskeletal
+349	synpic52038	skull and contents
+350	synpic41044	skull and contents
+351	synpic26752	skull and contents
+352	synpic21029	vascular and lymphatic
+353	synpic28025	skull and contents
+354	synpic27699	face, sinuses, and neck
+355	synpic44464	musculoskeletal
+356	synpic58717	skull and contents
+357	synpic47804	lung, mediastinum, pleura
+358	synpic16487	breast
+359	synpic19950	lung, mediastinum, pleura
+360	synpic33613	musculoskeletal
+361	synpic47187	skull and contents
+362	synpic58925	skull and contents
+363	synpic58716	skull and contents
+364	synpic42982	lung, mediastinum, pleura
+365	synpic50835	spine and contents
+366	synpic31561	musculoskeletal
+367	synpic37104	skull and contents
+368	synpic22284	skull and contents
+369	synpic21941	lung, mediastinum, pleura
+370	synpic35129	heart and great vessels
+371	synpic26814	skull and contents
+372	synpic100313	spine and contents
+373	synpic454	gastrointestinal
+374	synpic50558	skull and contents
+375	synpic55352	spine and contents
+376	synpic47476	yes
+377	synpic58354	yes
+378	synpic39386	yes
+379	synpic25627	yes
+380	synpic49505	yes
+381	synpic28985	no
+382	synpic29794	no
+383	synpic45122	no
+384	synpic100563	no
+385	synpic25614	no
+386	synpic53988	meningioma
+387	synpic23260	dermoid tumor (inclusion cyst) of cns
+388	synpic18584	acl graft impingement
+389	synpic36889	sialolithiasis, obstructing sialolith
+390	synpic55889	vertebral artery dissection
+391	synpic47679	incompetent cervix, "hourglass membranes."
+392	synpic48238	ascariasis
+393	synpic23472	bladder cancer
+394	synpic20621	(seronegative) spondylarthropathies
+395	synpic33890	microcystic (serous) adenoma of the pancreas
+396	synpic21502	mature cystic teratoma
+397	synpic23315	sarcoidosis
+398	synpic59863	low grade diffuse astrocytoma
+399	synpic52063	aml (angiomyolipoma)
+400	synpic43973	left aortic arch with aberrant right subclavian artery
+401	synpic33264	right aortic arch
+402	synpic35832	persistent trigeminal artery
+403	synpic36678	schizencephaly
+404	synpic36693	inguinal hernia involving bladder
+405	synpic59524	glioblastoma multiforme (gbm, astrocytoma grade 4/iv)
+406	synpic23288	chondroblastic osteosarcoma
+407	synpic58148	post-traumatic syringomyelia
+408	synpic54202	air in the abdomen
+409	synpic54570	enchondroma
+410	synpic25389	liver hemangioma
+411	synpic28646	appendicitis
+412	synpic35171	(angioinvasive aspergillosis with) septic cerebral emboli
+413	synpic45521	glioblastoma multiforme
+414	synpic42299	brain, cerebral abscess
+415	synpic56944	osteochondritis dissecans of the knee
+416	synpic38736	medullary nephrocalcinosis
+417	synpic31074	spontaneous osteonecrosis of the knee
+418	synpic31921	crohn's disease
+419	synpic59690	vertebral artery dissection with cerebellar infarction
+420	synpic50844	epidural empyema
+421	synpic31510	(iatrogenic) pneumoperitoneum
+422	synpic58565	mycotic aneurysm
+423	synpic48819	rheumatoid arthritis
+424	synpic43958	lipoma arborescens
+425	synpic19471	paraesophageal hernia
+426	synpic51409	spontaneous pneumomediastinum
+427	synpic46175	traumatic aortic injury
+428	synpic41140	acute appendicitis
+429	synpic19459	fibrous dysplasia
+430	synpic59243	potts puffy tumor
+431	synpic23931	multiple osteochondromatosis
+432	synpic52110	cerebellar hemangioblastoma
+433	synpic24938	vertebral metastases
+434	synpic44969	early cerebral infarction
+435	synpic41839	unilateral megaloencephaly, hemimegalencephaly
+436	synpic100560	(staging burkitt) lymphoma
+437	synpic40312	crohn's disease
+438	synpic39606	meningioma
+439	synpic35996	nontraumatic subarachnoid hemorrhage
+440	synpic54398	anomalous left coronary artery (arising form the pulmonary artery alcapa)
+441	synpic57322	primary sclerosing cholangitis
+442	synpic22025	pancreatic adenocarcinoma
+443	synpic24332	sialolithiasis resulting in sialoadenitis
+444	synpic31918	medullary nephrocalcinosis
+445	synpic33464	pelvic congestion syndrome
+446	synpic24681	craniosynostosis of the metopic suture
+447	synpic19500	endometrial polyp
+448	synpic28642	superior mesenteric artery syndrome
+449	synpic60174	subdural empyema secondary to sinusitis in an adolescent
+450	synpic28495	gastric volvulus (organoaxial)
+451	synpic51803	glomus tympanicum and glomus jugulare tumors (paraganglioma)
+452	synpic28324	percutaneous nephrostomy
+453	synpic50710	right transverse sinus stenosis
+454	synpic60189	dermoid cyst
+455	synpic59091	gliosarcoma
+456	synpic39017	calcification and large areas of abnormal white mattter
+457	synpic37984	adenomyosis
+458	synpic53580	fat embolism with cerebral infarction
+459	synpic50923	arachnoid cyst, sella
+460	synpic32787	colo-colic intussusception
+461	synpic35942	esoghageal spasm
+462	synpic16143	parathyroid adenoma
+463	synpic36293	metastastic melanoma
+464	synpic55708	diffuse infiltration of bone marrow of skull
+465	synpic23846	lymphangitic carcinomatosis
+466	synpic58210	ependymoma
+467	synpic34453	bronchopleural fistula
+468	synpic24668	hodgkin's lymphoma
+469	synpic25012	orbital sarcoidosis
+470	synpic51792	cerebral infarct (l mca territory)
+471	synpic25761	calcified uterine leiomyoma
+472	synpic51976	complex nasoethmoid and orbit fractures with pneumoorbita and pneumocephalus
+473	synpic53807	apical hypertrophic cardiomyopathy
+474	synpic18351	osteochondritis dissecans of the tarsal navicular
+475	synpic43433	heterogeneous cecal mass (with pericolic inflammation and asymmetric wall thickening)
+476	synpic28709	pulmonary embolus
+477	synpic58577	mycotic aneurysm
+478	synpic47443	medulloblastoma (pnet)
+479	synpic50705	right transverse sinus stenosis
+480	synpic49254	osteoma, head and neck
+481	synpic43590	periosteal desmoid
+482	synpic53967	abscess, pyogenic
+483	synpic45637	cavernous hemangioma
+484	synpic33979	lemierre syndrome
+485	synpic47008	astrocytoma, grading and subtypes
+486	synpic58869	chondrosarcoma
+487	synpic38637	yes
+488	synpic39501	irregular bone edema
+489	synpic47961	medulloblastoma
+490	synpic47550	posterior sternoclavicular dislocation
+491	synpic55154	cephalocele
+492	synpic28154	hypertrophic pyloric stenosis
+493	synpic58276	bucket handle tear of meniscus
+494	synpic39844	l5-s1 extruded disk fragment
+495	synpic24183	pseudomyxoma peritonei
+496	synpic21789	ossification of stylohyoid ligament
+497	synpic39878	cerebral infarct
+498	synpic41525	epiploic appendagitis
+499	synpic18173	pancreatic ductal adenocarcinoma
+500	synpic54143	neoplasm
