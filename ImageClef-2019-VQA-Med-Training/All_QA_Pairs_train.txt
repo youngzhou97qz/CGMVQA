@@ -1,1 +1,6 @@
 synpic41148|what kind of image is this?|cta - ct angiography
+synpic43984|is this a t1 weighted image?|no
+synpic41148|which plane is this image taken?|axial
+synpic41148|which organ is captured by this ct scan?|lung, mediastinum, pleura
+synpic41148|what is abnormal in the ct scan?|cryptococcal pneumonia in an immunocompetent host
+synpic35685|is this image normal?|yes
