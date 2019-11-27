@@ -1,1 +1,6 @@
 synpic54733|what imaging modality was used to take this image?|ct with iv contrast
+synpic35681|was the mri taken with contrast?|no
+synpic54733|in what plane is this image oriented?|axial
+synpic54733|what organ system is shown in the image?|face, sinuses, and neck
+synpic54733|what is the primary abnormality in this image?|paraganglioma
+synpic43431|is there an abnormality in the x-ray?|yes
